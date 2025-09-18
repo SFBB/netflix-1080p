@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/cadmium-playercore-6.0033.414.911-1080p.js"
+      }
+    },
+    "condition": {
+      "urlFilter": "|http*://assets.nflxext.com/*/ffe/player/html/*|",
+      "resourceTypes": ["script"]
+    }
+  }
+]
